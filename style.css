@@ -204,7 +204,7 @@ p {
 	background-size: cover;
 	background-position: top center;
 	position: relative;
-	border-radius: 0px 0px 10px 10px;;
+	border-radius: 0px 0px 10px 10px;
 	z-index: 1;
 }
 #hero::after {
@@ -292,7 +292,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./portfolio/img/office_image.jpg);
+	background-image: url(portfolio/img/office_image.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
