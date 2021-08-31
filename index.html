@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/portfolio/style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>warnim <span>S</span>waraj</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+			<li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1><b>Swarnim Swaraj </b><span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+  
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="/portfolio/img/profile_photo.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title"><b>About <span>me</b></span></h1>
+        <h2>Full Stack Developer</h2>
+        <p><h2>Hello!
+		My name is Swarnim Swaraj.<br>
+		I am a full stack developer.<br>
+		I make web applications usually in PHP.<br>
+		Feel free to take a look on my recent <a href="#projects" data-after="Projects"><b>Projects</b></a>.</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><b>Serv<span>i</span>ces</b></h1>
+        <p> I am here to help
+          you with the improvement of your project, whether it is Web devlopemnt, Ardunio, or App devlopent. I offer my
+          clients more than just a product, they can also contact me for advice about a project they
+          are already doing with someone else. I also have good contacts in my field, so I will find a solution for your
+          project.!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Front End Development</h2>
+          <p> The part of a website that the user interacts with directly is termed the front
+            end. It is also referred to as the ‘client side’ of the application. It includes everything that users
+            experience directly: text colors and styles, images, graphs and tables, buttons, colors, and navigation
+            menu. HTML, CSS, and JavaScript are the languages used for Front End development.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Backend Development</h2>
+          <p>Backend is the server-side of the website. It stores and arranges data, and also makes sure everything on
+            the client-side of the website works fine. It is the part of the website that you cannot see and interact
+            with. It is the portion of software that does not come in direct contact with the users. The parts and
+            characteristics developed by backend designers are indirectly accessed by users through a front-end
+            application.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Arduino</h2>
+          <p> Arduino is an open-source platform used for building electronics projects. Arduino consists of both a
+            physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE
+            (Integrated Development Environment) that runs on your computer, used to write and upload computer code to
+            the physical board.The Arduino platform has become quite popular with people just starting out with
+            electronics, and for good
+            reason. </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Flutter</h2>
+          <p>Flutter is Google’s Mobile SDK to build native iOS and Android apps from a single codebase. When building
+            applications with Flutter everything towards Widgets – the blocks with which the flutter apps are built. The
+            User Interface of the app is composed of many simple widgets. That
+            is the reason why Flutter developers tend to think of their flutter app as a tree of widgets, Flutter is much better in regard to having a
+            Single Codebase for Android and iOS, Reusable UI and Business Logic, high compatibility, performance, and
+            productivity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title"><b>Recent <span>Projects</b></span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/office_image.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+  
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+      <div>
+        <h1 class="section-title"><b>Contact <span>info</b></span></h1>
+      </div>
+    <div class="contact container" >
+      
+	  
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 7091392928</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>swarnimswaraj28m@gmail.com</h2>
+            <h2>18CS31@bcebakhtiyarpur.org</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2> Boys Hostel-2
+			Bakhtiyarpur College of Engineering,
+			Bakhtiyarpur,Patna,803212</h2>
+          </div>
+        </div>
+		
+	  </div>
+	  <div class="column right">
+                    <div>
+						<h4 class="section-title"><b>Message </b><span><b>Me</b></span></h4>
+					</div>
+					<br><br>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+	  </div>
+	</div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>warnim <span>S</span>waraj</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://linkedin.com/in/swarnim-swaraj-0901941a0"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/swarnimswaraj28"><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/swarnimswaraj"><img src="https://img.icons8.com/color/50/000000/github--v3.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2021 Swarnim Swaraj. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
