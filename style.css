@@ -292,7 +292,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(portfolio/img/office_image.jpg);
+	background-image: url(img/office_image.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
