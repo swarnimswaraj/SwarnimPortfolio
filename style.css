@@ -333,6 +333,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
+	border-radius: 20px;
 }
 #projects .projects-header h1 {
 	margin-bottom: 50px;
