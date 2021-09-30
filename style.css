@@ -343,6 +343,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	border-radius: 25px;
 }
 #projects .project-item {
 	display: flex;
